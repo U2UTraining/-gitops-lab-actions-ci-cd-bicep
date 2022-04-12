@@ -2,7 +2,6 @@
 global using System.Diagnostics;
 global using System.Globalization;
 global using System.Runtime.CompilerServices;
-global using U2U.CleanArchitecture;
 global using U2U.Currencies.Core.Entities;
 global using U2U.Currencies.Core.Services;
 global using U2U.Currencies.Core.Specifications;

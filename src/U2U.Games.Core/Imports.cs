@@ -1,7 +1,6 @@
 ﻿global using Microsoft.EntityFrameworkCore;
 global using Microsoft.Extensions.DependencyInjection;
 global using System.Diagnostics;
-global using U2U.CleanArchitecture;
 global using U2U.Currencies.Core.Entities;
 global using U2U.Currencies.Core.Services;
 global using U2U.Currencies.Core.ValueObjects;

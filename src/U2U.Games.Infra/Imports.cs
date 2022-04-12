@@ -4,7 +4,6 @@ global using Microsoft.EntityFrameworkCore.Metadata.Builders;
 global using Microsoft.Extensions.Configuration;
 global using Microsoft.Extensions.DependencyInjection;
 global using System.Runtime.CompilerServices;
-global using U2U.CleanArchitecture;
 global using U2U.Currencies.Core.Entities;
 global using U2U.Currencies.Core.ValueObjects;
 global using U2U.EntityFrameworkCore;

@@ -91,7 +91,7 @@ namespace U2U.Games.Core.Tests
     {
       var pub = new Publisher(1, "pub");
       var game = pub.CreateGame("test");
-      Assert.Throws<ArgumentNullException>(() => game.SetPrice(null));
+      Assert.Throws<ArgumentNullException>(() => game.SetPrice(null!));
     }
 
     [Fact]

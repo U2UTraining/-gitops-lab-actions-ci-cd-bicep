@@ -28,10 +28,10 @@ public class Money : IEquatable<Money>
   public static bool operator !=(Money left, Money right)
     => !(left == right);
 
-  public override bool Equals(object obj)
+  public override bool Equals(object? obj)
     => ValueObjectComparers.ValueObjectComparer<Money>.Instance.Equals(this, obj);
 
-  public bool Equals(Money other)
+  public bool Equals(Money? other)
     => ValueObjectComparers.ValueObjectComparer<Money>.Instance.Equals(this, other);
 
   public override int GetHashCode()

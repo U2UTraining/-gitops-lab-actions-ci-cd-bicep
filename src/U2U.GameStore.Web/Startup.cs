@@ -10,8 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using U2U.CleanArchitecture;
+using U2U.Currencies.Core;
 using U2U.Currencies.Core.Globalization;
 using U2U.Currencies.Infra;
+using U2U.Games.Core;
 using U2U.Games.Infra;
 using U2U.GameStore.Web.Sessions;
 
@@ -36,7 +38,10 @@ namespace U2U.GameStore.Web
       services.AddEntityFrameworkInMemoryDatabase();
 
       // Add services and repositories
-      services.AddAutoConfig(Configuration);
+      services.AddCurrencyCore();
+      services.AddCurrencyInfra();
+      services.AddGameCore();
+      services.AddGameInfra();
 
       // Add session state
       services.AddDistributedMemoryCache();

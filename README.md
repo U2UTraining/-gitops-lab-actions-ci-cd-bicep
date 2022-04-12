@@ -1,2 +1,2 @@
-# Continuous Integration and Deployment Lab
+# Continuous Integration and Deployment Demo
 

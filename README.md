@@ -1,1 +1,2 @@
-# -gitops-lab-actions-ci-cd-bicep
+# Continuous Integration and Deployment Lab
+
